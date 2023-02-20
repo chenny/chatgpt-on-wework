@@ -20,7 +20,7 @@ from flask import Flask, request ,abort
 thread_pool = ThreadPoolExecutor(max_workers=8)
 app = Flask(__name__)
 
-class WechatChannel(Channel):
+class WechatEnterpriseChannel(Channel):
     def __init__(self):
         pass
 
